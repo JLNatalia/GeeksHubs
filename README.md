@@ -1,1 +1,2 @@
-# GeeksHubsEditado desde la rama local develop
+# GeeksHubs
+Reto 1. Website dinámico.

@@ -1,0 +1,104 @@
+html, body, p {
+  margin: 0;
+  padding: 0;
+  font-size: 25px; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+header {
+  padding-left: 105px;
+  color: #000000; }
+
+.main_title {
+  font-family: Impact;
+  letter-spacing: 1.5px;
+  position: absolute;
+  top: 86px; }
+
+#natalia {
+  position: absolute;
+  top: 0;
+  left: 4px; }
+
+#joga {
+  position: absolute;
+  top: 23px;
+  left: -12px; }
+
+.initials {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-family: 'Gill Sans MT';
+  letter-spacing: -45px;
+  font-size: 120px; }
+
+header nav {
+  color: inherit;
+  position: absolute;
+  right: 0;
+  padding-left: 105px;
+  display: flex;
+  flex-direction: row-reverse; }
+
+header nav a {
+  padding: 35px 27px 30px 27px !important;
+  color: #000000 !important;
+  font-family: Impact;
+  letter-spacing: 2px; }
+
+header nav a:hover {
+  cursor: pointer;
+  border-bottom: 5px solid black;
+  text-decoration: none !important; }
+
+#bg_img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: -15%; }
+
+footer {
+  background-color: #ffffff6e;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+footer div p {
+  font-family: 'Segoe UI';
+  font-size: 15px;
+  padding: 7.5px;
+  text-align: center; }
+
+footer div nav {
+  display: flex;
+  justify-content: center; }
+
+footer div nav:nth-child(3) {
+  vertical-align: middle;
+  font-family: 'Segoe UI';
+  font-size: 15px;
+  padding-bottom: 15px; }
+
+a img {
+  width: 45px;
+  margin: 5px 10px 10px 10px; }
+
+nav:nth-child(3) a {
+  color: #302f2f;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 10px 0 10px; }
+
+nav:nth-child(3) a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
+  font-weight: bold; }
+
+/*# sourceMappingURL=inicio.css.map */
